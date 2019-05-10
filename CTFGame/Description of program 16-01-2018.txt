@@ -1,0 +1,28 @@
+Issues:
+GENERAL
+-Add array storage of obstacles and universal collision detection system
+-Add additional comments
+-Make private anything that does not need to be public
+-Remove debug code
+
+class CTFGame
+-NullPointerExceptions appear in CTFGame highScores() and createHighScore() when comparing input to null value. Find another default state for files
+-add errorchecking to all inputs
+-add graphics to splashScreen(), mainMenu()
+-When running in eclipse, cannot find file without specifying full path for createHighScores() and highScores().
+	Replace with only the file name when running
+
+class SplashScreen
+-add animations
+
+class GameClock
+-No issues as of yet
+	Note: this class basically acts as a replacement for getSystemTimeMillis() since we haven't learned it
+
+class Player
+-
+
+class Display
+-
+
+Note: class and thread structure works
